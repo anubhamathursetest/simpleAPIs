@@ -1,0 +1,30 @@
+{
+  "message": [
+    {
+      "id": "1",
+      "shortName": "ALERT1",
+      "alertAcronym": "ALT",
+      "dtcNumber": "12345",
+      "institutionID": "INST001",
+      "finsCUID": "FINS001",
+      "euroclearNumber": "EUR001",
+      "crestID": "CREST001",
+      "bankName": "Bank of Example",
+      "additionalInfo": "Example additional info",
+      "accountNumber": "ACC123456"
+    },
+    {
+      "id": "2",
+      "shortName": "ALERT2",
+      "alertAcronym": "ALR",
+      "dtcNumber": "12346",
+      "institutionID": "INST002",
+      "finsCUID": "FINS002",
+      "euroclearNumber": "EUR002",
+      "crestID": "CREST002",
+      "bankName": "Global Bank",
+      "additionalInfo": "Additional details here",
+      "accountNumber": "ACC654321"
+    }
+  ]
+}

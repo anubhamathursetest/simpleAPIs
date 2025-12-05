@@ -1,2 +1,2 @@
 # simpleAPIs
-Simple API project in python to implement CRUD apis with data interaction through json files.
+Simple API project in js to implement CRUD apis with data interaction through json files.
