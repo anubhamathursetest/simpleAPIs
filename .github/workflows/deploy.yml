@@ -7,12 +7,10 @@ on:
         type: choice
         description: Target deployment environment
         required: true
-        default: 'Deployment'
+        default: 'GoogleCloudRun'
         options:
         - Deployment
         - GoogleCloudRun
-        - staging
-        - production
 
 jobs:
   deploy:
