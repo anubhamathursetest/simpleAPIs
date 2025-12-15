@@ -1,9 +1,18 @@
 name: Continuous Deployment to Cloud Run
 
 on:
-  push:
-    branches:
-      - main # Trigger on push to the 'main' branch
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: choice
+        description: Target deployment environment
+        required: true
+        default: 'Deployment'
+        options:
+        - Deployment
+        - GoogleCloudRun
+        - staging
+        - production
 
 jobs:
   deploy:
