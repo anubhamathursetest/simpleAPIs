@@ -2,7 +2,7 @@
   "name": "simpleapis",
   "version": "1.0.0",
   "description": "Simple API project in python to implement CRUD apis with data interaction through json files.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
