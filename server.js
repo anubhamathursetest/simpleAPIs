@@ -5,7 +5,7 @@ const { v4: uuidv4 } = require('uuid');
 const path = require('path');
 
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 const DATA_FILE = path.join(__dirname, 'data.json');
 
 app.use(bodyParser.json());
